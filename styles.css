@@ -1,0 +1,71 @@
+#nav{
+    margin-top: 80px;
+}
+
+.sidebar {
+    width: 250px;
+    position: relative;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: lightgray;
+    color:black;
+    transition: all 0.3s;
+    
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#cards{
+ margin-left: 253px;
+ display: run-in;
+ padding-bottom: 5px;
+ margin-top: -650px;
+
+
+}
+#cards, li {
+    display: flex;
+}
+.card{
+    margin-left: 10px;
+}
+hr {
+    width: 1px;
+    height: 7rem;
+    background: gray;
+}
+#hr{
+    display: flex;
+}
+img {
+    margin-left: 162px;
+    width: 870px;
+    height: 400px;
+    margin-top: -650px;
+}
+#lastcard{
+    margin-left: 165px;
+    margin-top: -130px;
+}
+p, span {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: unset;
+    font-size: x-small;
+    opacity: unset;
+}
+.card .card-body .card-title .timer{
+    color: aquamarine;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    body  {
+            width: 100%;
+          }
+  }
+  @media only screen and (max-width: 768px) {
+    body  {
+            width: 100%;
+          }
+  }

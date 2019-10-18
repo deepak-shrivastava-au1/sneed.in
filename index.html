@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+        <div class = "container">
+            <div class = "row">
+                <div id = "nav" class = "col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">DASHBOARD</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">PROJECT <br/><span>Acme Corp.</span></a>
+                        <a class="nav-item nav-link active" href="#">DEVICE <br/><span>Machine 313</span></a>
+                        <a class="nav-item nav-link active" href="#">LOCATION <br/><span>Ferrar ItaLY</span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-3">
+                <div class="sidebar">        
+                
+                        <ul>
+                            <li><p>PLATFORM</p></li>
+                            <li><i class="fa fa-home"></i>&nbsp;&nbsp; HOME</li>
+                            <br />
+                            <li><i class="fa fa-american-sign-language-interpreting"></i>&nbsp; MACHINES</li>
+                            <br />
+                            <li><i class="fa fa-address-book"></i>&nbsp;&nbsp; CLIENTS</li>
+                            <br />
+                            <li><i class="fa fa-clock"></i> &nbsp;&nbsp; PLANNING</li>
+                            <br />
+                        </ul>
+                    
+                        <ul>
+                            <li><p>SETTINGS</p></li>
+                            <li><i class="fa fa-users"></i>&nbsp;&nbsp; USERS</li>
+                            <br />
+                            <li><i class="fa fa-download"></i>&nbsp;&nbsp; EXPORT DATA</li>
+                            <br />
+                            <li><i class="fa fa-cog"></i>&nbsp;&nbsp; SETTINGS</li>
+                            <br />
+                        </ul>
+                    
+                        <ul>
+                            <li><p>ADVANCED</p></li>
+                            <li><i class="fa fa-cog"></i>&nbsp;&nbsp; FANCYBOX CONFIG</li>
+                            <br />
+                            <li><i class="fa fa-cloud"></i>&nbsp;&nbsp; SPACEBUNNY STATUS</li>
+                            <br />
+                            <li><i class="fa fa-folder"></i>&nbsp;&nbsp; SHARED FOLDERS</li>
+                            <br />
+                        </ul>
+                    </div>
+                </div>
+                <div id = "cards" class="col-md-9">
+                    <li>
+                        <div class="card" style="width: 8rem; height: 8rem; background-color: blue;">
+                            <div class="card-body">
+                                <h3 class="card-title">52<span id="small">%</span></h3>
+                                <p class="card-text">Machine work</p>
+                            <div class="progress" style="height: 4px;">
+                                <div class="progress-bar" role="progressbar" style="width: 52%;" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card" style="width: 8rem; height: 8rem;">
+                            <div class="card-body">
+                                <h3 class="card-title">16 <i class="fa fa-user"></i></h3>
+                                <p class="card-text">Active Operator</p>
+                            <div class="progress" style="height: 4px;">
+                                <div class="progress-bar" role="progressbar" style="width: 20%;" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card" style="width: 8rem; height: 8rem;">
+                            <div class="card-body">
+                                <h3 class="card-title">4<span>%</span></i></h3>
+                                <p class="card-text">Product Discharge</p>
+                            <div class="progress" style="height: 4px;">
+                                <div class="progress-bar" role="progressbar" style="width: 4%;" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card" style="width: 19rem; height: 8rem;">
+                            <div class="card-body">
+                                <h3 id="border" class="card-title">07:38:00 &nbsp;&nbsp;&nbsp;&nbsp; <span class="timer">06:57:24</span></h3>
+                                <h6>11/09/2018</h6>
+                                <p class="card-text">Starting Time  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Duration</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card" style="width: 8rem; height: 8rem;">
+                            <div class="card-body">
+                                <h3 class="card-title">100<span>%</span></i></h3>
+                                <p class="card-text">Hardware Prototyping</p>
+                            <div class="progress" style="height: 4px;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-1">
+                    <img src="Web Dashboard.jpg">
+                </div>
+                </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-1">
+                    <li>
+                        <div id = "lastcard" class="card" style="width: 35rem; height: 11rem;">
+                            <div class="card-body">
+                                <h3 class="card-title">Events</h3>
+                                <p class="card-text">Alert events</p>
+                                <h3>23</h3>
+                                <span>in the past 30 days</span>
+                            </div>
+                        </div>
+                     </li>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
